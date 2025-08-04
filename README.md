@@ -60,12 +60,12 @@ Detailed notebooks are provided in the `notebooks/` folder.
 
 We evaluate model performance by artist and globally:
 
-| Model     | Mean MAE | Mean MAPE |
-|-----------|----------|-----------|
-| SARIMAX   | 415.3    | 21.7%     |
-| Prophet   | 420.5    | 23.1%     |
-| XGBoost   | 399.0    | 20.2%     |
-| LSTM      | 390.7    | 19.4%     |
+| Model     | Mean MAE   | Mean MAPE |
+|-----------|------------|-----------|
+| LSTM      | 28,129.29  | 12%       |
+| XGBoost   | 29,293.74  | 13%       |
+| SARIMAX   | 68,548.15  | 30%       |
+| Prophet   | 236,606.38 | 104%      |
 
 > 🔍 LSTM performed best on average, but XGBoost showed better interpretability and speed.
 
