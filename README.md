@@ -17,17 +17,30 @@ Forecasting royalties accurately is crucial for financing music careers and mana
 
 ## 🧪 Dataset
 
-The dataset contains anonymized monthly royalty data per artist over several years, including:
+Below is a detailed explanation of each variable used in the dataset:
 
-- `artist_id`: unique artist identifier
-- `date`: monthly timestamp
-- `royalties`: earnings in USD  
-- External variables such as:
-  - Number of releases
-  - Followers
-  - Social media sentiment (optional)
+| **Field**                    | **Description**                                                                             |
+| ---------------------------- | ------------------------------------------------------------------------------------------- |
+| `artist_id`                  | Unique identifier for the artist.                                                           |
+| `date`                       | Date of the data record (monthly frequency).                                                |
+| `royalties`                  | Amount of royalties the artist earned during the period.                                    |
+| `instagram_followers`        | Total number of Instagram followers at the given date.                                      |
+| `twitter_followers`          | Total number of Twitter followers at the given date.                                        |
+| `track_release`              | Flag indicating whether the artist released a track during the period.                      |
+| `sentiment`                  | Monthly sentiment score (from 0 to 1), calculated from the sentiment of Instagram comments. |
+| `mentions_followers`         | Total number of Instagram followers from artists who mentioned the analyzed artist.         |
+| `num_posts`                  | Number of Instagram posts made by the artist during the period.                             |
+| `num_comments`               | Number of comments received on the artist’s Instagram posts during the period.              |
+| `mean_royalties_6m`          | Average royalties over the past 6 months.                                                   |
+| `std_instagram_followers_6m` | Standard deviation of Instagram followers over the past 6 months (measuring volatility).    |
+| `growth_twitter_followers`   | Growth in Twitter followers compared to the previous period (absolute or %).                |
+| `growth_instagram_followers` | Growth in Instagram followers compared to the previous period (absolute or %).              |
+| `sum_track_releases_6m`      | Total number of tracks released in the last 6 months.                                       |
+| `mean_sentiment_3m`          | Average Instagram comment sentiment over the past 3 months.                                 |
+| `sum_mentions_followers_3m`  | Total `mentions_followers` over the past 3 months.                                          |
+| `month`                      | Month being analyzed.                                                     |
 
-> 🛑 The raw data cannot be shared due to confidentiality, but an example file is available in the `data/` folder.
+> 🛑 The raw data is available in the `data/` folder.
 
 ---
 
