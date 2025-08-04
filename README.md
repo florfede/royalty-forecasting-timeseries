@@ -58,7 +58,7 @@ Detailed notebooks are provided in the `notebooks/` folder.
 
 ## 📈 Results
 
-We evaluate model performance by artist and globally:
+The model performance was evaluated both per artist and globally:
 
 | Model     | Mean MAE   | Mean MAPE |
 |-----------|------------|-----------|
