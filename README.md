@@ -40,7 +40,7 @@ Below is a detailed explanation of each variable used in the dataset:
 | `sum_mentions_followers_3m`  | Total `mentions_followers` over the past 3 months.                                          |
 | `month`                      | Month being analyzed.                                                     |
 
-> 🛑 The raw data is available in the `data/` folder.
+The raw data is available in the `data/` folder.
 
 ---
 
