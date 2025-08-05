@@ -71,9 +71,53 @@ The model performance was evaluated both per artist and globally:
 
 ---
 
-## 🧠 How to Run
+## 📁 Folder Structure
+
+```
+royalty-forecasting-timeseries/
+│
+├── data/              # Example data
+├── notebooks/         # One notebook per model
+├── outputs/           # Forecasts and metrics
+├── src/               # Optional helper scripts
+├── requirements.txt   # Python dependencies
+└── README.md
+```
+---
+
+## 🧪 How to Run
 
 1. Clone the repo:
-   ```bash
-   git clone https://github.com/florfede/royalty-forecasting-timeseries.git
-   cd royalty-forecasting-timeseries
+```bash
+git clone https://github.com/tu-usuario/royalty-forecasting-timeseries.git
+cd royalty-forecasting-timeseries
+```
+
+2. Install requirements:
+```bash
+pip install -r requirements.txt
+```
+
+3. Run each model notebook in `notebooks/`:
+- `sarimax.ipynb`
+- `prophet.ipynb`
+- `xgboost.ipynb`
+- `lstm.ipynb`
+
+---
+
+## 📚 Tech Stack
+
+- Python
+- pandas / numpy
+- matplotlib / seaborn
+- statsmodels / Prophet / XGBoost / TensorFlow
+- Jupyter Notebook
+
+---
+
+## 👩‍💻 Author
+
+**Florencia Federico**  
+Data & Machine Learning Engineer  
+[LinkedIn](https://www.linkedin.com/in/florenciafederico88/)
