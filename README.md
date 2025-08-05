@@ -44,18 +44,6 @@ The raw data is available in the `data/` folder.
 
 ---
 
-## ⚙️ Models & Methodology
-
-Each artist's royalty time series is modeled individually. For each approach, we:
-
-1. Preprocess the data (handle missing, outliers, etc.)
-2. Train and evaluate models using MAE and MAPE
-3. Store forecasts for Power BI visualization
-
-Detailed notebooks are provided in the `notebooks/` folder.
-
----
-
 ## 📈 Results
 
 The model performance was evaluated both per artist and globally:
@@ -99,10 +87,11 @@ pip install -r requirements.txt
 ```
 
 3. Run each model notebook in `notebooks/`:
-- `sarimax.ipynb`
-- `prophet.ipynb`
-- `xgboost.ipynb`
-- `lstm.ipynb`
+- `sarimax_model_per_artist.ipynb`
+- `prophet_model_per_artist.ipynb`
+- `xgboost_model_per_artist.ipynb`
+- `lstm_model_per_artist.ipynb`
+- `model_comparison_per_artist.ipynb`
 
 ---
 
