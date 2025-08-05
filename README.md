@@ -69,6 +69,8 @@ The model performance was evaluated both per artist and globally:
 
 > 🔍 LSTM performed best on average, but XGBoost showed better interpretability and speed.
 
+---
+
 ## 📁 Folder Structure
 
 ```
